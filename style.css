@@ -9,6 +9,7 @@ body {
 }
 .first-section {
   background-color: #1f2937;
+  padding-bottom: 100px;
 }
 
 .header-logo {
@@ -52,13 +53,14 @@ ul {
 .content-caption {
   font-size: 18px;
   color: #e5e7eb;
-  margin-left: 130px;
+  margin-left: 95px;
 }
 
 .hero-img {
   width: auto;
   height: 300px;
   margin: 50px;
+  padding-right: 100px;
 }
 
 .content {
@@ -72,6 +74,8 @@ ul {
   margin: 50px;
   align-items: center;
   justify-content: center;
+  padding-left: 145px;
+  padding-top: 40px;
 }
 
 .content-right {
@@ -92,4 +96,51 @@ ul {
   border-radius: 10px;
   border: 0px;
   cursor: pointer;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+.second-section {
+  background-color: peachpuff;
+  padding-bottom: 60px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card-img {
+  padding: 5px;
+  border-radius: 15px;
+  display: flex;
+  width: 300px;
+  height: auto;
+}
+
+.card-caption {
+  margin-left: 10px;
+  padding-bottom: 50px;
+}
+
+.third-section {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  text-align: center;
+  font-size: 24px;
+  color: #1f2937;
+  padding-top: 30px;
+}
+
+.quote-author {
+  text-align: center;
+  padding-top: 10px;
 }
